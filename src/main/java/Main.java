@@ -14,13 +14,13 @@ public class Main {
         int choice;
 
         do {
-            System.out.println("به سیستم مدیریت کهکشان خوش آمدید!");
+            System.out.println("سیستم مدیریت کهکشان!");
             System.out.println("1. نمایش کهکشان‌ها");
-            System.out.println("2. اضافه کردن سیاره جدید");
+            System.out.println("2. افزودن سیاره ");
             System.out.println("3. تغییر تعداد قمر سیاره");
             System.out.println("4. نمایش اطلاعات سیاره");
             System.out.println("5. خروج و ذخیره اطلاعات");
-            System.out.print("انتخاب شما: ");
+            System.out.print("انتخاب گزینه: ");
 
             choice = Integer.parseInt(scanner.nextLine());
 
